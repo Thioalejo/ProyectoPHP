@@ -10,7 +10,7 @@
 
 <div class="container">
 	
-	<form id="frmRegistro" action='BD/BD_insertarTendero.php' method='get'>
+	<form id="frmRegistro" action='BD/BD_insertarEstablecimiento.php' method='get'>
 
 
 		<div class="input-group">

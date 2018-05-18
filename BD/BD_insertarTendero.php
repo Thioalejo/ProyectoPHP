@@ -34,5 +34,5 @@ $stmt->close();
 $db->close();
  ?>
 
- <a href="\Plantilla_Web\index_.php">Regresar</a>
+ <a href="\ProyectoPHP\">Regresar</a>
 

@@ -10,7 +10,7 @@
 
 <div class="container">
 	
-	<form action='?menu=form_ingreso' method='post'>
+	<form action='sesiones/checklogin.php' method='post'>
 
 		<div class="input-group">
 			<span class="input-group-addon">

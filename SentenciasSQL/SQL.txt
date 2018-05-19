@@ -6,3 +6,20 @@ CREATE TABLE `carnesfrias`.`Tendero` ( `Nit` INT NOT NULL , `Nombre_Completo` VA
 CREATE TABLE `carnesfrias`.`Establecimientos` ( `Identificacion` INT NOT NULL , `Nombre` VARCHAR(50) NOT NULL , `Ciudad` VARCHAR(50) NOT NULL , `Direccion` VARCHAR(50) NOT NULL , `Telefono` VARCHAR(50) NOT NULL , PRIMARY KEY (`Identificacion`)) ENGINE = InnoDB;
 
 CREATE TABLE `carnesfrias`. ( `IdCliente` INT NOT NULL AUTO_INCREMENT , `Nombre_Completo` VARCHAR(100) NOT NULL , `Ciudad` VARCHAR(50) NOT NULL , `Direccion` VARCHAR(50) NOT NULL , `Telefono` VARCHAR(50) NOT NULL , `Email` VARCHAR(50) NOT NULL , PRIMARY KEY (`IdCliente`)) ENGINE = InnoDB;
+
+CREATE TABLE `carnesfrias`.`Productos` ( `idProducto` INT NOT NULL AUTO_INCREMENT , `nombreProducto` VARCHAR(50) NOT NULL , `presentacion` VARCHAR(50) NOT NULL , `precio` VARCHAR NOT NULL , PRIMARY KEY (`idProducto`)) ENGINE = InnoDB;
+
+CREATE TABLE `carnesfrias`.`Venta` ( `idVenta` INT NOT NULL AUTO_INCREMENT , `producto` VARCHAR(50) NOT NULL , `precio` INT NOT NULL , `fechaCompra` VARCHAR(30) NOT NULL , `Cliente` VARCHAR(50) NOT NULL , PRIMARY KEY (`idVenta`)) ENGINE = InnoDB;
+
+
+
+///estudiando el administrador de roles y permisos log in
+
+CREATE TABLE `Carnesfrias2`.`Usuarios` ( `IdUsuario` INT NOT NULL AUTO_INCREMENT , `usuario` VARCHAR(50) NOT NULL , `password` VARCHAR(50) NOT NULL , PRIMARY KEY (`IdUsuario`)) ENGINE = InnoDB;
+
+
+CREATE TABLE `carnesfrias2`. ( `IdPerfil` INT NOT NULL AUTO_INCREMENT , `codigoPerfil` VARCHAR(50) NOT NULL , `nombrePerfil` VARCHAR(50) NOT NULL , PRIMARY KEY (`IdPerfil`)) ENGINE = InnoDB;
+
+CREATE TABLE `carnesfrias2`.`Modulos` ( `idModulos` INT NOT NULL , `codigoModulo` VARCHAR(50) NOT NULL , `NombreModulo` VARCHAR(50) NOT NULL ) ENGINE = InnoDB;
+
+CREATE TABLE `carnesfrias2`.`roles` ( `IdRol` INT NOT NULL AUTO_INCREMENT , `CodigoRol` VARCHAR(50) NOT NULL , `nombreRol` VARCHAR(50) NOT NULL , PRIMARY KEY (`IdRol`)) ENGINE = InnoDB;

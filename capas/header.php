@@ -31,6 +31,13 @@
 					</a>
 				</li>
 
+
+				<li>
+					<a href="?menu=registrarVenta"><span class="glyphicon glyphicon-list-alt"></span>
+						Registrar venta
+					</a>
+				</li>
+
 				<li>
 					<a href="?menu=registrarEstablecimiento"><span class="glyphicon glyphicon-list-alt"></span>
 						Registrar establecimiento

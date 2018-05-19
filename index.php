@@ -64,6 +64,10 @@ https://www.w3schools.com/bootstrap/default.asp
 				require_once('usuarios/registrarCliente.php');
 			}
 
+			if ($_GET['menu']=='registrarVenta') {
+				require_once('usuarios/registrarVenta.php');
+			}
+
 			if ($_GET['menu']=='registrarEstablecimiento') {
 				require_once('usuarios/registrarEstablecimiento.php');
 			}
@@ -77,11 +81,15 @@ https://www.w3schools.com/bootstrap/default.asp
 			}
 
 
-			if ($_GET['menu']=='form_ingreso') {
-				if ($_POST['usuario']=='gerley' and $_POST['clave']=='123') {
+			if ($_GET['menu']=='form_ingreso') 
+			{
+				if ($_POST['usuario']=='gerley' and $_POST['clave']=='123') 
+				{
 					require_once('clases/clases.php');
 					require_once('usuarios/perfil.php');	
-				}else{
+				}
+				else
+				{
 					require_once('usuarios/error.php');
 				}
 			}	

@@ -1,4 +1,17 @@
+<?php 
 
+session_start();
+
+if(isset($_SESSION['login'])==true)
+{
+}
+
+else
+{
+	echo "Usuario no autorizado";
+	echo "Por favor ingrese <a href='usuarios/login.html'";
+}
+ ?>
 <!-- Nota: Lista de iconos de Bootstrap 
  https://www.w3schools.com/icons/bootstrap_icons_glyphicons.asp
 -->

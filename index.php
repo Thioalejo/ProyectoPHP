@@ -60,6 +60,10 @@ https://www.w3schools.com/bootstrap/default.asp
 				require_once('usuarios/registrarTendero.php');
 			}
 
+			if ($_GET['menu']=='registrarCliente') {
+				require_once('usuarios/registrarCliente.php');
+			}
+
 			if ($_GET['menu']=='registrarEstablecimiento') {
 				require_once('usuarios/registrarEstablecimiento.php');
 			}

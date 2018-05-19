@@ -24,6 +24,13 @@
 						Registrar tendero
 					</a>
 				</li>
+
+				<li>
+					<a href="?menu=registrarCliente"><span class="glyphicon glyphicon-list-alt"></span>
+						Registrar cliente
+					</a>
+				</li>
+
 				<li>
 					<a href="?menu=registrarEstablecimiento"><span class="glyphicon glyphicon-list-alt"></span>
 						Registrar establecimiento

@@ -1,3 +1,8 @@
 Creacion de tabla tendero
 
-CREATE TABLE `carnesfrias`.`Tendero` ( `Nit` INT NOT NULL AUTO_INCREMENT , `Nombre_Completo` VARCHAR(200) NOT NULL , `Ciudad` VARCHAR(50) NOT NULL , `Barrio` VARCHAR(50) NOT NULL , `Direccion` VARCHAR(50) NOT NULL , `Telefono` BIGINT NOT NULL , PRIMARY KEY (`Nit`)) ENGINE = InnoDB;
+CREATE TABLE `carnesfrias`.`Tendero` ( `Nit` INT NOT NULL , `Nombre_Completo` VARCHAR(200) NOT NULL , `Ciudad` VARCHAR(50) NOT NULL , `Barrio` VARCHAR(50) NOT NULL , `Direccion` VARCHAR(50) NOT NULL , `Telefono` BIGINT NOT NULL , PRIMARY KEY (`Nit`)) ENGINE = InnoDB;
+
+
+CREATE TABLE `carnesfrias`.`Establecimientos` ( `Identificacion` INT NOT NULL , `Nombre` VARCHAR(50) NOT NULL , `Ciudad` VARCHAR(50) NOT NULL , `Direccion` VARCHAR(50) NOT NULL , `Telefono` VARCHAR(50) NOT NULL , PRIMARY KEY (`Identificacion`)) ENGINE = InnoDB;
+
+CREATE TABLE `carnesfrias`. ( `IdCliente` INT NOT NULL AUTO_INCREMENT , `Nombre_Completo` VARCHAR(100) NOT NULL , `Ciudad` VARCHAR(50) NOT NULL , `Direccion` VARCHAR(50) NOT NULL , `Telefono` VARCHAR(50) NOT NULL , `Email` VARCHAR(50) NOT NULL , PRIMARY KEY (`IdCliente`)) ENGINE = InnoDB;

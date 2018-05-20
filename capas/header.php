@@ -14,11 +14,8 @@
 				</li>
 				<li>
 					<a href="?menu=contacto">Contácto</a>
-				</li>				
-			</ul>
-			
-			<!-- Botones a la derecha, en la barra de navegación. -->
-			<ul class="nav navbar-nav navbar-right">
+				</li>
+
 				<li>
 					<a href="?menu=registrarTendero"><span class="glyphicon glyphicon-list-alt"></span>
 						Registrar tendero
@@ -42,12 +39,23 @@
 					<a href="?menu=registrarEstablecimiento"><span class="glyphicon glyphicon-list-alt"></span>
 						Registrar establecimiento
 					</a>
-				</li>	
+				</li>					
+			</ul>
+			
+			<!-- Botones a la derecha, en la barra de navegación. -->
+			<ul class="nav navbar-nav navbar-right">
+				
 				<li>
 					<a href="?menu=ingreso"><span class="glyphicon glyphicon-log-in"></span>
 						Ingresar
 					</a>
-				</li>				
+				</li>
+
+				<li>
+					<a href="?menu=cerrarSesion"><span class="glyphicon glyphicon-log-out"></span>
+						Cerrar sesión
+					</a>
+				</li>					
 			</ul>
 	</div>
 </nav>

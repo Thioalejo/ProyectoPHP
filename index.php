@@ -80,6 +80,9 @@ https://www.w3schools.com/bootstrap/default.asp
 				require_once('usuarios/contacto.php');
 			}
 
+			if ($_GET['menu']=='cerrarSesion') {
+				require_once('sesiones/logout.php');
+			}
 
 			if ($_GET['menu']=='form_ingreso') 
 			{

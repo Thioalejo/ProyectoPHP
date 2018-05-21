@@ -7,7 +7,7 @@
 </head>
 <body>
 
-	<form action='BD_Encuesta_2.php' method='post'>
+	<form action='Encuesta_2.php' method='post'>
 
  	<h1 align="center">***** ENCUESTA DE SATISFACCIÓN CLIENTES *****</h1>
 

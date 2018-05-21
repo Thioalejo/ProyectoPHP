@@ -10,7 +10,7 @@
 
 <div class="container">
 	
-	<form action='#' method='post'>
+	<form action='BD/BD_insertarContacto.php' method='post'>
 
 		<div class="input-group">
 			<span class="input-group-addon">

@@ -56,12 +56,17 @@ https://www.w3schools.com/bootstrap/default.asp
 			if ($_GET['menu']=='inicio') {
 				require_once('capas/bienvenido.php');		
 			}
+
+			if ($_GET['menu']=='Administrador') {
+				require_once('usuarios/administrador.php');
+			}
+
 			if ($_GET['menu']=='registrarTendero') {
 				require_once('usuarios/registrarTendero.php');
 			}
 
 			if ($_GET['menu']=='registrarCliente') {
-				require_once('usuarios/registrarCliente.php');
+				require_once('usuarios/registrarCliente.php');				
 			}
 
 			if ($_GET['menu']=='registrarVenta') {

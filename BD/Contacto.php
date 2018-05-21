@@ -3,7 +3,7 @@
 include_once('Conexion.php');
 
 //Sentencia sql para la creacion de la tabla.
-$stmt= $db->query("CREATE TABLE BD_EVALUACION4.Contacto(
+$stmt= $db->query("CREATE TABLE carnesfrias.Contacto(
 	Nombres VARCHAR(60) NOT NULL ,
 	Apellidos VARCHAR(60) NOT NULL,
 	Email VARCHAR(100) NOT NULL,

@@ -16,6 +16,7 @@ $Ciudad = $_GET['txtCiudad'];
 $Barrio = $_GET['txtBarrio'];
 $Direccion = $_GET['txtDireccion'];
 $Telefono = $_GET['txtTelefono'];
+
 //para asignar los parametros, en los que quedaron pendientes con los ?,?,?,?,? ,  issss tipos de datos a cada dato a ingresar i=int, s=string s=string
 $stmt -> bind_param('ssssss',$Nit,$NombreCompleto,$Ciudad,$Barrio,$Direccion,$Telefono);
 

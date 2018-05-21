@@ -5,7 +5,7 @@ session_start();
 
 
 
-if($_SESSION['rol']=='tendero')
+if($_SESSION['rol']=='administrador')
 {
 
 ?>

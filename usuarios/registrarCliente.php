@@ -61,13 +61,7 @@ if($_SESSION['rol']=='tendero')
 							<input class="form-control" id="email" name="txtEmail" type="email" placeholder="Ingrese correo">		
 				</div>	
 
-				<div class="input-group">
-					<span class="input-group-addon">
-						<span class="glyphicon glyphicon-edit"></span>
-					</span>			
-							<input class="form-control" id="idUsuario" name="txtUsuarioId" type="text" placeholder="cree un usuario">		
-				</div>	
-
+				
 				<div class="input-group">
 					<span class="input-group-addon">
 						<span class="glyphicon glyphicon-edit"></span>

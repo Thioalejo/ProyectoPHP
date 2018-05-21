@@ -1,7 +1,7 @@
 
 <div  class="container page-header text-center">
  <p>
- 	<h3>BIENVENIDO AL CURSO DE PROGRAMACIÓN PARA LA WEB CON PHP</h3>
+ 	<h3>BIENVENIDO AL ADMINISTRADOR DE BODEGA</h3>
  </p> 
 </div>
 

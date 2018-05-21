@@ -69,6 +69,12 @@ https://www.w3schools.com/bootstrap/default.asp
 				require_once('usuarios/registrarCliente.php');				
 			}
 
+
+			if ($_GET['menu']=='Encuesta') {
+				require_once('usuarios/Encuesta_1.php');				
+			}
+
+
 			if ($_GET['menu']=='ListaClientes') {
 				require_once('clases/clases.php');
 				require_once('BD/BD_ListaCliente.php');				

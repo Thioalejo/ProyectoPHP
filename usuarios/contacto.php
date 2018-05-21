@@ -2,6 +2,8 @@
 <!-- Nota: Lista de iconos de Bootstrap 
  https://www.w3schools.com/icons/bootstrap_icons_glyphicons.asp
 -->
+
+
 <div  class="container page-header text-center">
  <p>
  	<h2>Formulario de Contacto</h2>

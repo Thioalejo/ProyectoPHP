@@ -2,9 +2,6 @@
 
 session_start();
 
-
-
-
 if($_SESSION['rol']=='administrador')
 {
 

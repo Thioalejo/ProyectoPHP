@@ -12,16 +12,17 @@
 <br>
 <br>
 <div class="container">
-  <h3>LISTADO DE CLIENTES</h3>
-  <p>Registros de la tabla 'clientes':</p>            
+  <h3>LISTADO DE TENDEROS</h3>
+  <p>Registros de la tabla 'tendero':</p>            
   <table class="table table-striped">
     <thead>
       <tr>
-        <th>Nombres</th>
+        <th>Nit</th>
+        <th>NombreCompleto</th>
         <th>Ciudad</th>
-        <th>Dirección</th>
+        <th>Barrio</th>
+        <th>Direccion</th>
         <th>Telefono</th>
-        <th>Email</th>
       </tr>
     </thead>
     <tbody>
@@ -55,7 +56,7 @@
 	//incluimos la conexion a la BD
 	include_once('C:\xampp\htdocs\ProyectoPHP\BD\Conexion.php');
 
-		$SQL = "SELECT * FROM carnesfrias.cliente";
+		$SQL = "SELECT * FROM carnesfrias.tendero";
 		//$SQLCont= "SELECT count(*) FROM carnesfrias.cliente"
 
 		
@@ -66,15 +67,16 @@
 		{
 			//$rowCont = $ResultCont->fetch_array(MYSQLI_ASSOC);
 
-			$nombre =	$row['Nombre_Completo'];
-			$ciudad =	$row['Ciudad'];
-			$direccion = $row['Direccion'];
-			$telefono =	$row['Telefono'];
-			$email =	$row['Email'];
+			$Nit =	$row['Nit'];
+			$NombreCompleto =	$row['NombreCompleto'];
+			$Ciudad = $row['Ciudad'];
+			$Barrio =	$row['Barrio'];
+			$Direccion =	$row['Direccion'];
+			$Telefono =	$row['Telefono'];
 			
 	    	 			
-				  $tablaUsuarios = new tablaClientes($nombre,$ciudad,$direccion, $telefono, $email);
-				  $tablaUsuarios->insertarRegistro();
+				  $tablaTendero = new tablaTendero($Nit,$NombreCompleto,$Ciudad,$Barrio, $Direccion,$Telefono);
+				  $tablaTendero->insertarRegistro();
 		      
 		}     
       ?>

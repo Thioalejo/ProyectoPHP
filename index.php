@@ -69,6 +69,10 @@ https://www.w3schools.com/bootstrap/default.asp
 				require_once('usuarios/registrarCliente.php');				
 			}
 
+			if ($_GET['menu']=='ListaTenderos') {
+				require_once('clases/tendero.php');
+				require_once('BD/BD_ListaTendero.php');				
+			}
 
 			if ($_GET['menu']=='Encuesta') {
 				require_once('usuarios/Encuesta_1.php');				
@@ -76,12 +80,12 @@ https://www.w3schools.com/bootstrap/default.asp
 
 
 			if ($_GET['menu']=='ListaClientes') {
-				require_once('clases/clases.php');
+				require_once('clases/cliente.php');
 				require_once('BD/BD_ListaCliente.php');				
 			}
 
 			if ($_GET['menu']=='registroAdministradores') {
-				require_once('clases/clases.php');
+				require_once('clases/cliente.php');
 				require_once('usuarios/registrarAdministrador.php');				
 			}
 

@@ -44,7 +44,8 @@ $stmt2->execute();
 
 ///RECORDAR VALIDAR DE REGISTRO EXITOSO SI O NO.
 //mensaje para mostrar el exito de la insercion.
-echo "Registro insertados existosamente. <br>";
+
+//echo "Registro insertados existosamente. <br>";
 
 
 //Cerrar las conexiones.
@@ -52,6 +53,8 @@ echo "Registro insertados existosamente. <br>";
 $stmt->close();
 $stmt2->close();
 $db->close();
+
+header('Location: /ProyectoPHP/');
  ?>
 
  <a href="\ProyectoPHP\">Regresar</a>

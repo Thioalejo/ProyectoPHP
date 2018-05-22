@@ -3,12 +3,15 @@
 session_start();
 
 
+
 if(isset($_SESSION['rol']))
 {
 
 	if($_SESSION['rol']=='administrador')
 	{
-
+		echo "<br>";
+echo "<br>";
+include_once('clases\cookie.php');
 	?>
 			<nav class="navbar navbar-inverse navbar-fixed-top"><!-- Este bloque contendrá el menú de opciones de navegación del sitio web. -->
 				<div class="container-fluid">
@@ -80,7 +83,9 @@ if(isset($_SESSION['rol']))
 
 	elseif($_SESSION['rol']=='tendero')
 	{
-		
+		echo "<br>";
+echo "<br>";
+include_once('clases\cookie.php');
 	?>
 
 		<nav class="navbar navbar-inverse navbar-fixed-top"><!-- Este bloque contendrá el menú de opciones de navegación del sitio web. -->
@@ -147,7 +152,9 @@ if(isset($_SESSION['rol']))
 	}
 	elseif($_SESSION['rol']=='Cliente')
 	{
-
+echo "<br>";
+echo "<br>";
+include_once('clases\cookie.php');
 	?>
 
 		<nav class="navbar navbar-inverse navbar-fixed-top"><!-- Este bloque contendrá el menú de opciones de navegación del sitio web. -->

@@ -2,7 +2,7 @@
 
 	session_start();
 
-  
+
 //incluimos la conexion a la BD
 include_once('C:\xampp\htdocs\ProyectoPHP\BD\Conexion.php');
 
@@ -33,6 +33,7 @@ if(password_verify($Clave, $row['Clave']))
 	echo "Bienvenido " .$_SESSION['usuario_Nombre'];
 	
 	header('Location: /ProyectoPHP/');
+	
 	//echo "<br><br><a href=/ProyectoPHP/>Pagina principal</a><br>";
 	//echo "ROL ".$_SESSION['rol'];	 
 }

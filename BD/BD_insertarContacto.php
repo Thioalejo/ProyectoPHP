@@ -25,13 +25,15 @@ $stmt->execute();
 
 
 //mensaje para mostrar el exito de la insercion.
-echo "Registro insertados existosamente. <br>";
+//echo "Registro insertados existosamente. <br>";
 
 
 //Cerrar las conexiones.
 
 $stmt->close();
 $db->close();
+
+header('Location: /ProyectoPHP/');
  ?>
 
  <a href="\ProyectoPHP\">Regresar</a>

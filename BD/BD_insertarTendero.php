@@ -49,6 +49,8 @@ if(!$stmt){
 $stmt->close();
 $stmt2->close();
 $db->close();
+
+header('Location: /ProyectoPHP/');
  ?>
 
  <a href="\ProyectoPHP\">Regresar</a>

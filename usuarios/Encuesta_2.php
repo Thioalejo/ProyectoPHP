@@ -131,7 +131,7 @@
 </table>
 </div>
 <br><br>
-<form action='http://localhost:8080/itm/ProyectoPHP-master/index.php' method='get'>
+<form action='/ProyectoPHP/index.php' method='get'>
 	<div align="center">
 	<button type="submit" class="btn btn-default btn-block">
 	  <span class="glyphicon glyphicon-send"></span><h4>INICIO</h4>

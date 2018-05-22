@@ -1,6 +1,9 @@
+<?php 
 
+   ?>
 <div  class="container page-header text-center">
  <p>
+
  	<h3>BIENVENIDO AL ADMINISTRADOR DE BODEGA</h3>
  </p> 
 </div>

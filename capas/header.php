@@ -243,7 +243,12 @@ if(isset($_SESSION['rol']))
 							
 							<!-- Botones a la derecha, en la barra de navegación. -->
 							<ul class="nav navbar-nav navbar-right">
-							
+							<li>
+								<a href="?menu=registroAdministradores"><span class="glyphicon glyphicon-log-in"></span>
+									Registrar
+								</a>
+							</li>
+
 							<li>
 								<a href="?menu=ingreso"><span class="glyphicon glyphicon-log-in"></span>
 									Ingresar

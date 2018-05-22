@@ -80,6 +80,11 @@ https://www.w3schools.com/bootstrap/default.asp
 				require_once('BD/BD_ListaCliente.php');				
 			}
 
+			if ($_GET['menu']=='registroAdministradores') {
+				require_once('clases/clases.php');
+				require_once('usuarios/registrarAdministrador.php');				
+			}
+
 			if ($_GET['menu']=='oulet') {
 				require_once('usuarios/oulet.php');
 			}

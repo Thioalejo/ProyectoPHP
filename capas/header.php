@@ -10,8 +10,8 @@ if(isset($_SESSION['rol']))
 	if($_SESSION['rol']=='administrador')
 	{
 		echo "<br>";
-echo "<br>";
-include_once('clases\cookie.php');
+		echo "<br>";
+		include_once('clases\cookie.php');
 	?>
 			<nav class="navbar navbar-inverse navbar-fixed-top"><!-- Este bloque contendrá el menú de opciones de navegación del sitio web. -->
 				<div class="container-fluid">
@@ -84,8 +84,8 @@ include_once('clases\cookie.php');
 	elseif($_SESSION['rol']=='tendero')
 	{
 		echo "<br>";
-echo "<br>";
-include_once('clases\cookie.php');
+		echo "<br>";
+		include_once('clases\cookie.php');
 	?>
 
 		<nav class="navbar navbar-inverse navbar-fixed-top"><!-- Este bloque contendrá el menú de opciones de navegación del sitio web. -->

@@ -19,7 +19,7 @@ $db=new mysqli($server,$user,$password,$dbname);
 if($db->connect_error){
 	die("<br>La conexion ha fallado");
 }else{
-	echo"<br>La conexion ha sido exitosa";
+	//echo"<br>La conexion ha sido exitosa";
 }
 
 

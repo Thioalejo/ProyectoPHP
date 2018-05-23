@@ -1,6 +1,6 @@
 <?php 
 
-session_start();
+//session_start();
 
 
 
@@ -12,7 +12,7 @@ if($_SESSION['rol']=='tendero')
 
 <div  class="container page-header text-center">
  <p>
- 	<h2>Registro de tenderos</h2>
+ 	<h2>Registro de ventas</h2>
  </p> 
 </div>
 

@@ -1,8 +1,6 @@
 <?php 
 
-session_start();
-
-
+//session_start();
 
 
 if($_SESSION['rol']=='tendero')
@@ -58,7 +56,7 @@ if($_SESSION['rol']=='tendero')
 					<span class="input-group-addon">
 						<span class="glyphicon glyphicon-edit"></span>
 					</span>			
-							<input class="form-control" id="email" name="txtEmail" type="email" placeholder="Ingrese correo">		
+							<input class="form-control" id="email" name="txtEmail" type="email" placeholder="Ingrese correo"  required="true">		
 				</div>	
 
 				
@@ -66,7 +64,7 @@ if($_SESSION['rol']=='tendero')
 					<span class="input-group-addon">
 						<span class="glyphicon glyphicon-edit"></span>
 					</span>			
-							<input class="form-control" id="IdClave" name="txtClave" type="text" placeholder="asigne su clave">		
+							<input class="form-control" id="IdClave" name="txtClave" type="password" placeholder="asigne su clave"  required="true">		
 				</div>	
 
 						

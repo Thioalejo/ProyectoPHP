@@ -1,7 +1,5 @@
 <?php 
 
-session_start();
-
 
 
 if(isset($_SESSION['rol']))
@@ -18,7 +16,11 @@ if(isset($_SESSION['rol']))
 				-->
 				<div  class="container page-header text-center">
 				 <p>
-				 	<h2>CRUD</h2>
+				 	<form action="CrearEstructura.php" method="post">
+				 		
+				 		<input type="submit" name="btnCrearEstructura" value="Crear estructura">
+
+				 	</form>
 				 </p> 
 				</div>
 

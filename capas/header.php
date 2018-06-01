@@ -26,9 +26,7 @@ if(isset($_SESSION['rol']))
 								Inicio
 								</a>
 							</li>
-							<li>
-								<a href="?menu=contacto">Contácto</a>
-							</li>
+							
 
 							<li>
 								<a href="?menu=Administrador"><span class="glyphicon glyphicon-list-alt"></span>
@@ -58,6 +56,12 @@ if(isset($_SESSION['rol']))
 							<li>
 								<a href="?menu=registrarGerente"><span class="glyphicon glyphicon-list-alt"></span>
 									Registro gerentes
+								</a>
+							</li>
+
+							<li>
+								<a href="?menu=registrarRepresentante"><span class="glyphicon glyphicon-list-alt"></span>
+									Registro Representantes
 								</a>
 							</li>
 

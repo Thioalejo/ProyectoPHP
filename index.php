@@ -76,6 +76,11 @@ https://www.w3schools.com/bootstrap/default.asp
 				require_once('usuarios/registrarGerente.php');				
 			}
 
+			
+			if ($_GET['menu']=='registrarRepresentante') {
+				require_once('usuarios/registrarRepresentante.php');				
+			}
+
 			if ($_GET['menu']=='ListaTenderos') {
 				require_once('clases/tendero.php');
 				require_once('BD/BD_ListaTendero.php');				

@@ -55,6 +55,12 @@ if(isset($_SESSION['rol']))
 								</a>
 							</li>
 
+							<li>
+								<a href="?menu=registrarGerente"><span class="glyphicon glyphicon-list-alt"></span>
+									Registro gerentes
+								</a>
+							</li>
+
 
 							<li>
 								<a href="?menu=registrarEstablecimiento"><span class="glyphicon glyphicon-list-alt"></span>

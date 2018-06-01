@@ -1,0 +1,22 @@
+
+
+//para que las cartas se muestren horizontalmente una tras otra
+div{
+		border-radius: 5px;
+	}
+	.contenedor{
+		background-color:#CCC;
+		width:25%;
+		height:auto;
+		margin: 10px;
+		float:left;
+		margin: 10px;
+		border: 1px solid #000;
+
+	}
+	.contenido{
+		height:360px;
+		width:auto;
+		float:left;
+		margin: 10px;
+}

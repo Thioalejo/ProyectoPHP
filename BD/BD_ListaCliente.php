@@ -22,10 +22,13 @@
         <th>Dirección</th>
         <th>Telefono</th>
         <th>Email</th>
+        <th>Editar</th>
       </tr>
-    </thead>
-    <tbody>
 
+    </thead>
+
+    <tbody>
+			
     <!--
       <tr>
         <td>nombres$i</td>
@@ -71,14 +74,16 @@
 			$direccion = $row['Direccion'];
 			$telefono =	$row['Telefono'];
 			$email =	$row['Email'];
-			
-	    	 			
-				  $tablaUsuarios = new tablaClientes($nombre,$ciudad,$direccion, $telefono, $email);
+			$Editar = "<a href='Usuarios/actualizarCliente.php'>Editar</a>";
+	    	  	
+				  $tablaUsuarios = new tablaClientes($nombre,$ciudad,$direccion, $telefono, $email, $Editar);
 				  $tablaUsuarios->insertarRegistro();
+				  
 		      
 		}     
       ?>
-
+ 
     </tbody>
   </table>
+
 </div>

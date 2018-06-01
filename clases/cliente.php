@@ -7,15 +7,17 @@ class tablaClientes{
 	public $Direccion;
 	public $Telefono;
 	public $Email;
+	public $Editar;
 	
 	
-	function __construct($nombres,$Ciudad,$Direccion,$Telefono,$Email)
+	function __construct($nombres,$Ciudad,$Direccion,$Telefono,$Email,$Editar)
 	{
 		$this->nombres=$nombres;
 		$this->Ciudad=$Ciudad;
 		$this->Direccion=$Direccion;
 		$this->Telefono=$Telefono;
 		$this->Email=$Email;
+		$this->Editar=$Editar;
 
 	}
 	
@@ -28,6 +30,7 @@ class tablaClientes{
 		        <td>".$this->Direccion."</td>
 		        <td>".$this->Telefono."</td>
 		        <td>".$this->Email."</td>
+		        <td>".$this->Editar."</td>
 		      </tr>";		
 	}
 }

@@ -25,23 +25,26 @@
 
 					<?php 
 
-				if (isset($_POST['txtValidar'])) {
+				if (isset($_POST['txtValidar'])) 
+				{
 
 					$Validar = $_POST['txtValidar'];
 					
 
-					if ($Validar == 'SI') {								
+					if ($Validar == 'SI') 
+					{								
 					?>
 
 					<h3><p>2. Cuál de los siguientes productos consume: </p></h3>						
 							<p>
-						<label><input type="checkbox" name="txtChorizo">Chorizo</label><br>
-						<label><input type="checkbox" name="txtMortadela" >Mortadela</label><br>
-						<label><input type="checkbox" name="txtSalami" >Salami</label><br>
-						<label><input type="checkbox" name="txtCostilla" >Costilla</label><br>
-						<label><input type="checkbox" name="txtMorcilla" >Morcilla</label><br>
-						<label><input type="checkbox" name="txtSalchicha" >Salchicha</label><br>
-					    <label><input type="checkbox" name="txtSalchichon" >Salchichon</label><br>
+								<label><input type="checkbox" name="txtChorizo" value="Chorizo">Chorizo</label><br>
+								<label><input type="checkbox" name="txtMortadela" value="Mortadela" >Mortadela</label><br>
+								<label><input type="checkbox" name="txtSalami" value="Salami" >Salami</label><br>
+								<label><input type="checkbox" name="txtCostilla" value="Costilla">Costilla</label><br>
+								<label><input type="checkbox" name="txtMorcilla" value="Morcilla">Morcilla</label><br>
+								<label><input type="checkbox" name="txtSalchicha" value="Salchicha">Salchicha</label><br>
+							    <label><input type="checkbox" name="txtSalchichon" value="Salchichon">Salchichon</label><br>
+							    
     						</p>
     					
 
@@ -49,12 +52,12 @@
     				<h3><p>3. Con qué frecuencia consume estos productos: </p></h3>
 							<p>
 					<select name="txtOp-1" required>
-					<option value="">Elige una opción</option>
-				    <option>Diaramente</option>
-				    <option>1-3 veces x Semana</option>
-				    <option>4-6 veces x Semana</option>
-				    <option>1 Vez al mes</option>
-				    <option>Más de una vez al mes</option>
+						<option>Elige una opción</option>
+					    <option value="Diaramente" >Diaramente</option>
+					    <option value="1-3 veces x Semana">1-3 veces x Semana</option>
+					    <option value="4-6 veces x Semana">4-6 veces x Semana</option>
+					    <option value="1 Vez al mes">1 Vez al mes</option>
+					    <option value="Mas de una vez al mes" >Más de una vez al mes</option>
     				</select>
 							</p>
 					

@@ -83,8 +83,13 @@ https://www.w3schools.com/bootstrap/default.asp
 
 			if ($_GET['menu']=='ListaClientes') {
 				require_once('clases/cliente.php');
-				require_once('BD/BD_ListaCliente.php');				
+				require_once('BD/BD_ListaCliente.php');
+				//require_once('usuarios/actualizarCliente.php');
+				//require_once('BD/BD_ActualizarCliente.php');					
 			}
+
+
+			
 
 			if ($_GET['menu']=='registroAdministradores') {
 				require_once('clases/cliente.php');

@@ -130,6 +130,7 @@ if(isset($_SESSION['rol']))
 									</a>
 								</li>
 
+								
 											
 							</ul>
 							
@@ -187,7 +188,9 @@ include_once('clases\cookie.php');
 									<a href="?menu=cerrarSesion"><span class="glyphicon glyphicon-log-out"></span>
 										Cerrar sesión
 									</a>
-								</li>					
+								</li>	
+
+										
 							</ul>
 
 							
@@ -252,11 +255,19 @@ include_once('clases\cookie.php');
 									</li>		
 								</ul>
 
+						<ul class="nav navbar-nav navbar-letf">
+								<li>
+								<a href="?menu=oulet"><span class="glyphicon glyphicon-log-in"></span>
+									oulet
+								</a>
+								</li>
+					
+							</ul>
 								
 								<!-- Botones a la derecha, en la barra de navegación. -->
 								<ul class="nav navbar-nav navbar-right">
 								<li>
-									<a href="?menu=registroAdministradores"><span class="glyphicon glyphicon-log-in"></span>
+									<a href="?menu=registrarCliente"><span class="glyphicon glyphicon-log-in"></span>
 										Registrar
 									</a>
 								</li>

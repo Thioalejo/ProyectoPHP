@@ -1,24 +1,19 @@
-//<?php 
-
-//session_start();
 
 
-///if($_SESSION['rol']=='tendero')
-//{
 
-//?>
+
 		<!-- Nota: Lista de iconos de Bootstrap 
 		 https://www.w3schools.com/icons/bootstrap_icons_glyphicons.asp
 		-->
 		<div  class="container page-header text-center">
 		 <p>
-		 	<h2>Registro de clientes</h2>
+		 	<h2>Actualzar cliente</h2>
 		 </p> 
 		</div>
 
 		<div class="container">
 			
-			<form id="frmRegistro" action='BD/BD_insertarCliente.php' method='get'>
+			<form id="frmRegistro" action='BD/BD_ActualizarCliente.php' method='get'>
 
 				
 
@@ -75,25 +70,3 @@
 
 			</form>		
 		</div>
-<?php
-
-//}
-//else
-//{
-/*?>
-
-
-		<div  class="container page-header text-center">
-		 <p>
-		 	<h2>Registro de Usuarios</h2>
-		 </p> 
-		</div>
-
-		<div class="container">
-			
-			<h1>Usuario no autorizado</h1>	
-			
-		</div>
-<?php 
-}*/
- ?>
